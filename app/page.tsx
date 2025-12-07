@@ -167,7 +167,7 @@ export default function Home() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 glass-card">
+      {/* <section className="py-16 px-4 sm:px-6 lg:px-8 glass-card">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -193,7 +193,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Features Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 glass-card">

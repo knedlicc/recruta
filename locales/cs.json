@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "home": "Domů",
+    "jobs": "Pracovní nabídky",
+    "candidates": "Kandidáti",
+    "clients": "Klienti",
+    "about": "O nás",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Váš důvěryhodný náborový partner",
+      "subtitle": "Propojujeme talentované kandidáty s výjimečnými příležitostmi. Děláme nábor jednoduchým, osobním a efektivním."
+    },
+    "stats": {
+      "placements": "Úspěšných umístění",
+      "companies": "Partnerských firem",
+      "satisfaction": "Spokojenost klientů",
+      "experience": "Let zkušeností"
+    },
+    "features": {
+      "title": "Proč si vybrat nás?",
+      "subtitle": "Jsme odhodláni učinit vaši náborovou cestu hladkou a úspěšnou",
+      "matching": {
+        "title": "Odborné párování",
+        "description": "Propojujeme správné talenty se správnými příležitostmi"
+      },
+      "service": {
+        "title": "Osobní přístup",
+        "description": "Řešení šitá na míru pro kandidáty i klienty"
+      },
+      "expertise": {
+        "title": "Odbornost v oboru",
+        "description": "Hluboké znalosti napříč různými odvětvími a sektory"
+      }
+    },
+    "howItWorks": {
+      "title": "Jak to funguje",
+      "subtitle": "Náš jednoduchý, osvědčený proces propojování talentů s příležitostmi",
+      "connect": {
+        "title": "Spojte se",
+        "description": "Kontaktujte nás a řekněte nám o svých potřebách nebo kariérních cílech"
+      },
+      "match": {
+        "title": "Párování",
+        "description": "Analyzujeme a párujeme vás s perfektními příležitostmi nebo kandidáty"
+      },
+      "support": {
+        "title": "Podpora",
+        "description": "Poskytujeme průběžnou podporu během celého procesu"
+      },
+      "success": {
+        "title": "Úspěch",
+        "description": "Dosažte svých cílů s naším osvědčeným náborovým procesem"
+      }
+    },
+    "testimonials": {
+      "title": "Co lidé říkají",
+      "subtitle": "Nevěřte jen našim slovům - poslechněte si naše klienty a kandidáty"
+    },
+    "cta": {
+      "title": "Připraveni začít?",
+      "subtitle": "Ať už hledáte svou další příležitost nebo hledáte špičkové talenty, jsme tu pro vás.",
+      "candidate": "Jsem kandidát",
+      "client": "Jsem klient"
+    },
+    "contact": {
+      "title": "Kontaktujte nás",
+      "subtitle": "Máte otázky? Rádi bychom vás slyšeli. Pošlete nám zprávu a odpovíme co nejdříve."
+    }
+  },
+  "buttons": {
+    "findJobs": "Najít práci",
+    "forCandidates": "Pro kandidáty",
+    "applyNow": "Přihlásit se",
+    "getStarted": "Začít",
+    "contactUs": "Kontaktujte nás",
+    "sendMessage": "Odeslat zprávu",
+    "sending": "Odesílání...",
+    "submitApplication": "Odeslat přihlášku",
+    "submitting": "Odesílání...",
+    "cancel": "Zrušit"
+  },
+  "common": {
+    "fullName": "Celé jméno",
+    "email": "E-mail",
+    "phone": "Telefonní číslo",
+    "message": "Zpráva",
+    "subject": "Předmět",
+    "required": "Povinné",
+    "optional": "Volitelné"
+  },
+  "footer": {
+    "description": "Propojujeme talentované kandidáty s výjimečnými příležitostmi.",
+    "forCandidates": "Pro kandidáty",
+    "howItWorks": "Jak to funguje",
+    "browseJobs": "Procházet nabídky",
+    "forClients": "Pro klienty",
+    "ourServices": "Naše služby",
+    "aboutUs": "O nás",
+    "resources": "Zdroje",
+    "rightsReserved": "Všechna práva vyhrazena."
+  },
+  "contactForm": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Vyplňte formulář níže a my se vám ozveme co nejdříve",
+    "name": "Jméno",
+    "phone": "Telefon",
+    "placeholder": {
+      "name": "Vaše jméno",
+      "email": "vas.email@example.com",
+      "phone": "+420 123 456 789",
+      "subject": "O co se jedná?",
+      "message": "Řekněte nám více o vašem dotazu..."
+    },
+    "success": "Děkujeme! Vaše zpráva byla úspěšně odeslána. Brzy se vám ozveme.",
+    "error": "Něco se pokazilo. Zkuste to prosím znovu nebo nás kontaktujte přímo."
+  },
+  "jobApplication": {
+    "title": "Přihlásit se na pozici",
+    "linkedin": "LinkedIn profil",
+    "linkedinPlaceholder": "https://linkedin.com/in/vasprofil",
+    "linkedinHelp": "Sdílejte svůj LinkedIn profil, abychom mohli zkontrolovat vaše zkušenosti",
+    "portfolio": "Portfolio / Webové stránky",
+    "portfolioPlaceholder": "https://vasportfolio.com nebo https://github.com/vasuzivatel",
+    "portfolioHelp": "Odkaz na vaše portfolio, GitHub nebo osobní webové stránky",
+    "coverLetter": "Motivační dopis",
+    "coverLetterPlaceholder": "Řekněte nám, proč vás tato pozice zajímá...",
+    "linkedinRequired": "Prosím uveďte odkaz na váš LinkedIn profil",
+    "success": "Přihláška byla úspěšně odeslána! Projdeme ji a brzy se vám ozveme.",
+    "error": "Něco se pokazilo. Zkuste to prosím znovu nebo nás kontaktujte přímo."
+  },
+  "faq": {
+    "title": "Často kladené otázky",
+    "subtitle": "Najděte odpovědi na běžné otázky o našich službách a procesech",
+    "questions": [
+      {
+        "question": "Jak funguje náborový proces?",
+        "answer": "Náš proces je jednoduchý: Nejprve pochopíme vaše potřeby nebo kariérní cíle. Poté vás spojíme s vhodnými příležitostmi nebo kandidáty. Usnadňujeme pohovory a poskytujeme podporu během celého procesu, dokud není úspěšně umístěn kandidát."
+      },
+      {
+        "question": "V jakých odvětvích se specializujete?",
+        "answer": "Pracujeme napříč různými odvětvími včetně technologie, financí, zdravotnictví, marketingu, prodeje, inženýrství, designu a provozu. Náš tým má odborné znalosti v různých sektorech, aby uspokojil rozmanité potřeby klientů."
+      },
+      {
+        "question": "Jak dlouho obvykle trvá najít kandidáta?",
+        "answer": "Časový rámec se liší v závislosti na roli a požadavcích, ale obvykle můžeme představit kvalifikované kandidáty během 1-2 týdnů. U specializovaných pozic může trvat 2-4 týdny najít perfektní shodu."
+      },
+      {
+        "question": "Účtujete kandidátům za vaše služby?",
+        "answer": "Ne, naše služby jsou pro kandidáty zcela zdarma. Jsme placeni našimi klienty, když úspěšně umístíme kandidáta. Pro hledající zaměstnání nejsou žádné poplatky ani skryté náklady."
+      },
+      {
+        "question": "V čem se Recruta liší od jiných agentur?",
+        "answer": "Přistupujeme k každému umístění osobně. Nespárujeme jen životopisy—chápeme jedinečné potřeby kandidátů i klientů, zajišťujeme dlouhodobý úspěch a spokojenost. Náš tým poskytuje průběžnou podporu během celého procesu."
+      },
+      {
+        "question": "Můžete pomoci s dálkovými pozicemi?",
+        "answer": "Rozhodně! Pracujeme s firmami nabízejícími dálkové, hybridní a prezenční pozice. Můžeme vám pomoci najít příležitosti, které odpovídají vašemu preferovanému pracovnímu uspořádání."
+      },
+      {
+        "question": "Co bych měl připravit na první schůzku?",
+        "answer": "Pro kandidáty: Přineste aktualizovaný životopis, buďte připraveni diskutovat o svých kariérních cílech a přemýšlejte o tom, co hledáte ve své další roli. Pro klienty: Buďte připraveni diskutovat o svých náborových potřebách, firemní kultuře a ideálním profilu kandidáta."
+      },
+      {
+        "question": "Nabízíte smluvní a trvalá umístění?",
+        "answer": "Ano, pracujeme s oběma smluvními i trvalými pozicemi. Ať už hledáte krátkodobý projekt nebo dlouhodobou kariérní příležitost, můžeme vám pomoci najít správnou shodu."
+      }
+    ],
+    "cta": {
+      "title": "Stále máte otázky?",
+      "subtitle": "Jsme tu pro vás! Kontaktujte náš tým pro osobní pomoc."
+    }
+  }
+}
+

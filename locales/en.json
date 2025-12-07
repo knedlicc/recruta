@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "home": "Home",
+    "jobs": "Jobs",
+    "candidates": "Candidates",
+    "clients": "Clients",
+    "about": "About",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Your Trusted Recruiting Partner",
+      "subtitle": "Connecting talented candidates with exceptional opportunities. We make recruitment simple, personal, and effective."
+    },
+    "stats": {
+      "placements": "Successful Placements",
+      "companies": "Partner Companies",
+      "satisfaction": "Client Satisfaction",
+      "experience": "Years of Experience"
+    },
+    "features": {
+      "title": "Why Choose Us?",
+      "subtitle": "We're committed to making your recruitment journey smooth and successful",
+      "matching": {
+        "title": "Expert Matching",
+        "description": "We connect the right talent with the right opportunities"
+      },
+      "service": {
+        "title": "Personalized Service",
+        "description": "Tailored solutions for both candidates and clients"
+      },
+      "expertise": {
+        "title": "Industry Expertise",
+        "description": "Deep knowledge across multiple industries and sectors"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Our simple, proven process for connecting talent with opportunities",
+      "connect": {
+        "title": "Connect",
+        "description": "Get in touch with us and tell us about your needs or career goals"
+      },
+      "match": {
+        "title": "Match",
+        "description": "We analyze and match you with the perfect opportunities or candidates"
+      },
+      "support": {
+        "title": "Support",
+        "description": "We provide ongoing support throughout the entire process"
+      },
+      "success": {
+        "title": "Success",
+        "description": "Achieve your goals with our proven recruitment process"
+      }
+    },
+    "testimonials": {
+      "title": "What People Say",
+      "subtitle": "Don't just take our word for it - hear from our clients and candidates"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Whether you're looking for your next opportunity or seeking top talent, we're here to help.",
+      "candidate": "I'm a Candidate",
+      "client": "I'm a Client"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible."
+    }
+  },
+  "buttons": {
+    "findJobs": "Find Jobs",
+    "forCandidates": "For Candidates",
+    "applyNow": "Apply Now",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "submitApplication": "Submit Application",
+    "submitting": "Submitting...",
+    "cancel": "Cancel"
+  },
+  "common": {
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "message": "Message",
+    "subject": "Subject",
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "footer": {
+    "description": "Connecting talented candidates with exceptional opportunities.",
+    "forCandidates": "For Candidates",
+    "howItWorks": "How It Works",
+    "browseJobs": "Browse Jobs",
+    "forClients": "For Clients",
+    "ourServices": "Our Services",
+    "aboutUs": "About Us",
+    "resources": "Resources",
+    "rightsReserved": "All rights reserved."
+  },
+  "contactForm": {
+    "title": "Get In Touch",
+    "subtitle": "Fill out the form below and we'll get back to you as soon as possible",
+    "name": "Name",
+    "phone": "Phone",
+    "placeholder": {
+      "name": "Your name",
+      "email": "your.email@example.com",
+      "phone": "+1 (555) 123-4567",
+      "subject": "What is this regarding?",
+      "message": "Tell us more about your inquiry..."
+    },
+    "success": "Thank you! Your message has been sent successfully. We'll get back to you soon.",
+    "error": "Something went wrong. Please try again or contact us directly."
+  },
+  "jobApplication": {
+    "title": "Apply for Position",
+    "linkedin": "LinkedIn Profile",
+    "linkedinPlaceholder": "https://linkedin.com/in/yourprofile",
+    "linkedinHelp": "Share your LinkedIn profile so we can review your experience",
+    "portfolio": "Portfolio / Website",
+    "portfolioPlaceholder": "https://yourportfolio.com or https://github.com/yourusername",
+    "portfolioHelp": "Link to your portfolio, GitHub, or personal website",
+    "coverLetter": "Cover Letter",
+    "coverLetterPlaceholder": "Tell us why you're interested in this position...",
+    "linkedinRequired": "Please provide your LinkedIn profile link",
+    "success": "Application submitted successfully! We'll review it and get back to you soon.",
+    "error": "Something went wrong. Please try again or contact us directly."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our services and processes",
+    "questions": [
+      {
+        "question": "How does the recruitment process work?",
+        "answer": "Our process is simple: First, we understand your needs or career goals. Then, we match you with suitable opportunities or candidates. We facilitate interviews and provide support throughout the process until a successful placement is made."
+      },
+      {
+        "question": "What industries do you specialize in?",
+        "answer": "We work across multiple industries including Technology, Finance, Healthcare, Marketing, Sales, Engineering, Design, and Operations. Our team has expertise in various sectors to serve diverse client needs."
+      },
+      {
+        "question": "How long does it typically take to find a candidate?",
+        "answer": "The timeline varies depending on the role and requirements, but typically we can present qualified candidates within 1-2 weeks. For specialized positions, it may take 2-4 weeks to find the perfect match."
+      },
+      {
+        "question": "Do you charge candidates for your services?",
+        "answer": "No, our services are completely free for candidates. We are paid by our client companies when we successfully place a candidate. There are no fees or hidden costs for job seekers."
+      },
+      {
+        "question": "What makes Recruta different from other agencies?",
+        "answer": "We take a personalized approach to every placement. We don't just match resumes—we understand the unique needs of both candidates and clients, ensuring long-term success and satisfaction. Our team provides ongoing support throughout the entire process."
+      },
+      {
+        "question": "Can you help with remote positions?",
+        "answer": "Absolutely! We work with companies offering remote, hybrid, and on-site positions. We can help you find opportunities that match your preferred work arrangement."
+      },
+      {
+        "question": "What should I prepare for my first meeting?",
+        "answer": "For candidates: Bring an updated resume, be ready to discuss your career goals, and think about what you're looking for in your next role. For clients: Be prepared to discuss your hiring needs, company culture, and the ideal candidate profile."
+      },
+      {
+        "question": "Do you offer contract and permanent placements?",
+        "answer": "Yes, we work with both contract and permanent positions. Whether you're looking for a short-term project or a long-term career opportunity, we can help you find the right fit."
+      }
+    ],
+    "cta": {
+      "title": "Still have questions?",
+      "subtitle": "We're here to help! Get in touch with our team for personalized assistance."
+    }
+  }
+}
+

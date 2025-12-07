@@ -171,6 +171,150 @@
       "title": "Stále máte otázky?",
       "subtitle": "Jsme tu pro vás! Kontaktujte náš tým pro osobní pomoc."
     }
+  },
+  "jobs": {
+    "title": "Dostupné pozice",
+    "subtitle": "Objevte vzrušující kariérní příležitosti napříč různými odvětvími"
+  },
+  "candidates": {
+    "hero": {
+      "title": "Vaše kariérní cesta začíná zde",
+      "subtitle": "Jsme tu, abychom vám pomohli najít perfektní příležitost, která odpovídá vašim dovednostem, hodnotám a kariérním aspiracím.",
+      "browseJobs": "Procházet dostupné pozice"
+    },
+    "benefits": {
+      "title": "Jak vám pomáháme",
+      "subtitle": "Komplexní podpora během celé vaší cesty hledání zaměstnání",
+      "careerGuidance": {
+        "title": "Kariérní poradenství",
+        "description": "Získejte odborné rady ohledně vaší kariérní cesty a profesního rozvoje"
+      },
+      "topJobs": {
+        "title": "Přístup k nejlepším pozicím",
+        "description": "Exkluzivní přístup k pozicím, které odpovídají vašim dovednostem a aspiracím"
+      },
+      "interviewPrep": {
+        "title": "Příprava na pohovor",
+        "description": "Pomáháme vám připravit se na pohovory pomocí tipů a zkušebních sezení"
+      },
+      "salaryNegotiation": {
+        "title": "Vyjednávání o platu",
+        "description": "Odborná podpora, která vám pomůže získat odměnu, kterou si zasloužíte"
+      }
+    },
+    "process": {
+      "title": "Náš proces",
+      "subtitle": "Jednoduché kroky k vaší další kariérní příležitosti",
+      "register": {
+        "title": "Registrace vašeho profilu",
+        "description": "Vytvořte svůj profil a řekněte nám o svých dovednostech a kariérních cílech"
+      },
+      "match": {
+        "title": "Párování",
+        "description": "Spojíme vás s příležitostmi, které odpovídají vašemu profilu"
+      },
+      "support": {
+        "title": "Podpora při pohovoru",
+        "description": "Připravíme vás na pohovory a poskytneme průběžnou podporu"
+      },
+      "success": {
+        "title": "Získejte svou vysněnou práci",
+        "description": "Získejte umístění v roli, která odpovídá vašim kariérním aspiracím"
+      }
+    },
+    "cta": {
+      "title": "Připraveni udělat další krok?",
+      "subtitle": "Připojte se k tisícům úspěšných kandidátů, kteří našli svou vysněnou práci díky nám.",
+      "getStarted": "Začněte ještě dnes"
+    },
+    "contact": {
+      "title": "Kontaktujte nás",
+      "subtitle": "Máte otázky ohledně našich služeb? Chcete se zaregistrovat jako kandidát? Kontaktujte nás ještě dnes!"
+    }
+  },
+  "clients": {
+    "hero": {
+      "title": "Najděte správné talenty pro svůj tým",
+      "subtitle": "Pomáháme firmám všech velikostí najít výjimečné talenty, které pohánějí obchodní úspěch. Nechte nás řešit vaše náborové potřeby, abyste se mohli soustředit na to, na čem záleží nejvíce.",
+      "getStarted": "Začít"
+    },
+    "services": {
+      "title": "Naše služby",
+      "subtitle": "Komplexní náborová řešení šitá na míru vašim potřebám",
+      "talentSourcing": {
+        "title": "Hledání talentů",
+        "description": "Najdeme nejlepší kandidáty pro vaše otevřené pozice prostřednictvím naší rozsáhlé sítě"
+      },
+      "screening": {
+        "title": "Screening a ověřování",
+        "description": "Důkladné kontroly pozadí a hodnocení dovedností pro zajištění kvalitních náborů"
+      },
+      "timeSavings": {
+        "title": "Úspora času",
+        "description": "Ušetřete cenný čas tím, že necháte nás řešit celý náborový proces"
+      },
+      "expertise": {
+        "title": "Odbornost v oboru",
+        "description": "Hluboké pochopení různých odvětví a jejich specifických náborových potřeb"
+      }
+    },
+    "industries": {
+      "title": "Odvětví, kterým sloužíme",
+      "subtitle": "Máme zkušenosti s náborem napříč různými odvětvími"
+    },
+    "testimonials": {
+      "title": "Co říkají naši klienti"
+    },
+    "cta": {
+      "title": "Připraveni najít svého dalšího zaměstnance?",
+      "subtitle": "Pojďme diskutovat o tom, jak vám můžeme pomoci vybudovat váš vysněný tým.",
+      "contactUs": "Kontaktujte nás ještě dnes"
+    },
+    "contact": {
+      "title": "Pojďme diskutovat o vašich náborových potřebách",
+      "subtitle": "Řekněte nám o své firmě a jaké talenty hledáte. Ozveme se vám s přizpůsobeným řešením."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "O Recruta",
+      "subtitle": "Jsme důvěryhodná náborová agentura věnovaná propojování výjimečných talentů s vynikajícími příležitostmi. Naším posláním je učinit nábor jednoduchým, osobním a efektivním pro všechny."
+    },
+    "story": {
+      "title": "Náš příběh",
+      "paragraph1": "Založena v roce 2015, Recruta se zrodila z jednoduché víry: nábor by měl být o lidech, ne jen o procesech. Viděli jsme příliš mnoho talentovaných kandidátů přehlédnutých a příliš mnoho firem bojujících s nalezením správné shody.",
+      "paragraph2": "V průběhu let jsme si vybudovali pověst excelence tím, že jsme přistupovali k každému umístění osobně. Nespárujeme jen životopisy s popisy práce—chápeme jedinečné potřeby kandidátů i klientů, abychom vytvořili trvalá, úspěšná partnerství.",
+      "paragraph3": "Dnes jsme hrdí, že jsme pomohli tisícům profesionálů najít jejich vysněné práce a stovkám firem vybudovat jejich vysněné týmy. Naše oddanost integritě, excelenci a inovacím stále pohání vše, co děláme."
+    },
+    "values": {
+      "title": "Naše hodnoty",
+      "subtitle": "Principy, které vedou vše, co děláme",
+      "integrity": {
+        "title": "Integrita",
+        "description": "Působíme s poctivostí a transparentností ve všem, co děláme"
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Usilujeme o nejvyšší standardy v našem poskytování služeb"
+      },
+      "partnership": {
+        "title": "Partnerství",
+        "description": "Budujeme dlouhodobé vztahy založené na důvěře a vzájemném úspěchu"
+      },
+      "innovation": {
+        "title": "Inovace",
+        "description": "Neustále zlepšujeme naše procesy, abychom dosáhli lepších výsledků"
+      }
+    },
+    "team": {
+      "title": "Seznamte se s naším týmem",
+      "subtitle": "Zkušení profesionálové věnovaní vašemu úspěchu"
+    },
+    "stats": {
+      "placements": "Úspěšných umístění",
+      "companies": "Partnerských firem",
+      "satisfaction": "Spokojenost klientů"
+    }
   }
 }
 

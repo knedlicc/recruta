@@ -171,6 +171,150 @@
       "title": "Still have questions?",
       "subtitle": "We're here to help! Get in touch with our team for personalized assistance."
     }
+  },
+  "jobs": {
+    "title": "Available Positions",
+    "subtitle": "Discover exciting career opportunities across various industries"
+  },
+  "candidates": {
+    "hero": {
+      "title": "Your Career Journey Starts Here",
+      "subtitle": "We're here to help you find the perfect opportunity that matches your skills, values, and career aspirations.",
+      "browseJobs": "Browse Available Jobs"
+    },
+    "benefits": {
+      "title": "How We Help You",
+      "subtitle": "Comprehensive support throughout your job search journey",
+      "careerGuidance": {
+        "title": "Career Guidance",
+        "description": "Get expert advice on your career path and professional development"
+      },
+      "topJobs": {
+        "title": "Access to Top Jobs",
+        "description": "Exclusive access to positions that match your skills and aspirations"
+      },
+      "interviewPrep": {
+        "title": "Interview Preparation",
+        "description": "We help you prepare for interviews with tips and mock sessions"
+      },
+      "salaryNegotiation": {
+        "title": "Salary Negotiation",
+        "description": "Expert support to help you get the compensation you deserve"
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "subtitle": "Simple steps to your next career opportunity",
+      "register": {
+        "title": "Register Your Profile",
+        "description": "Create your profile and tell us about your skills and career goals"
+      },
+      "match": {
+        "title": "Get Matched",
+        "description": "We match you with opportunities that align with your profile"
+      },
+      "support": {
+        "title": "Interview Support",
+        "description": "We prepare you for interviews and provide ongoing support"
+      },
+      "success": {
+        "title": "Land Your Dream Job",
+        "description": "Get placed in a role that fits your career aspirations"
+      }
+    },
+    "cta": {
+      "title": "Ready to Take the Next Step?",
+      "subtitle": "Join thousands of successful candidates who found their dream jobs through us.",
+      "getStarted": "Get Started Today"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "subtitle": "Have questions about our services? Want to register as a candidate? Contact us today!"
+    }
+  },
+  "clients": {
+    "hero": {
+      "title": "Find the Right Talent for Your Team",
+      "subtitle": "We help companies of all sizes find exceptional talent that drives business success. Let us handle your recruitment needs so you can focus on what matters most.",
+      "getStarted": "Get Started"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive recruitment solutions tailored to your needs",
+      "talentSourcing": {
+        "title": "Talent Sourcing",
+        "description": "We find the best candidates for your open positions through our extensive network"
+      },
+      "screening": {
+        "title": "Screening & Vetting",
+        "description": "Thorough background checks and skill assessments to ensure quality hires"
+      },
+      "timeSavings": {
+        "title": "Time Savings",
+        "description": "Save valuable time by letting us handle the entire recruitment process"
+      },
+      "expertise": {
+        "title": "Industry Expertise",
+        "description": "Deep understanding of various industries and their specific hiring needs"
+      }
+    },
+    "industries": {
+      "title": "Industries We Serve",
+      "subtitle": "We have experience recruiting across diverse industries"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say"
+    },
+    "cta": {
+      "title": "Ready to Find Your Next Hire?",
+      "subtitle": "Let's discuss how we can help you build your dream team.",
+      "contactUs": "Contact Us Today"
+    },
+    "contact": {
+      "title": "Let's Discuss Your Hiring Needs",
+      "subtitle": "Tell us about your company and what kind of talent you're looking for. We'll get back to you with a customized solution."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Recruta",
+      "subtitle": "We're a trusted recruitment agency dedicated to connecting exceptional talent with outstanding opportunities. Our mission is to make recruitment simple, personal, and effective for everyone."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Founded in 2015, Recruta was born from a simple belief: recruitment should be about people, not just processes. We saw too many talented candidates overlooked and too many companies struggling to find the right fit.",
+      "paragraph2": "Over the years, we've built a reputation for excellence by taking a personalized approach to every placement. We don't just match resumes to job descriptions—we understand the unique needs of both candidates and clients to create lasting, successful partnerships.",
+      "paragraph3": "Today, we're proud to have helped thousands of professionals find their dream jobs and hundreds of companies build their dream teams. Our commitment to integrity, excellence, and innovation continues to drive everything we do."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "integrity": {
+        "title": "Integrity",
+        "description": "We operate with honesty and transparency in everything we do"
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for the highest standards in our service delivery"
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We build long-term relationships based on trust and mutual success"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously improve our processes to deliver better results"
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "Experienced professionals dedicated to your success"
+    },
+    "stats": {
+      "placements": "Successful Placements",
+      "companies": "Partner Companies",
+      "satisfaction": "Client Satisfaction"
+    }
   }
 }
 

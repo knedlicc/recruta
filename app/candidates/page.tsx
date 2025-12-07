@@ -3,54 +3,56 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import ContactForm from '@/components/ContactForm'
-
-const benefits = [
-  {
-    title: 'Career Guidance',
-    description: 'Get expert advice on your career path and professional development',
-    icon: '🎯',
-  },
-  {
-    title: 'Access to Top Jobs',
-    description: 'Exclusive access to positions that match your skills and aspirations',
-    icon: '💼',
-  },
-  {
-    title: 'Interview Preparation',
-    description: 'We help you prepare for interviews with tips and mock sessions',
-    icon: '📝',
-  },
-  {
-    title: 'Salary Negotiation',
-    description: 'Expert support to help you get the compensation you deserve',
-    icon: '💰',
-  },
-]
-
-const process = [
-  {
-    step: '1',
-    title: 'Register Your Profile',
-    description: 'Create your profile and tell us about your skills and career goals',
-  },
-  {
-    step: '2',
-    title: 'Get Matched',
-    description: 'We match you with opportunities that align with your profile',
-  },
-  {
-    step: '3',
-    title: 'Interview Support',
-    description: 'We prepare you for interviews and provide ongoing support',
-  },
-  {
-    step: '4',
-    title: 'Land Your Dream Job',
-    description: 'Get placed in a role that fits your career aspirations',
-  },
-]
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Candidates() {
+  const { t } = useLanguage()
+
+  const benefits = [
+    {
+      title: t.candidates.benefits.careerGuidance.title,
+      description: t.candidates.benefits.careerGuidance.description,
+      icon: '🎯',
+    },
+    {
+      title: t.candidates.benefits.topJobs.title,
+      description: t.candidates.benefits.topJobs.description,
+      icon: '💼',
+    },
+    {
+      title: t.candidates.benefits.interviewPrep.title,
+      description: t.candidates.benefits.interviewPrep.description,
+      icon: '📝',
+    },
+    {
+      title: t.candidates.benefits.salaryNegotiation.title,
+      description: t.candidates.benefits.salaryNegotiation.description,
+      icon: '💰',
+    },
+  ]
+
+  const process = [
+    {
+      step: '1',
+      title: t.candidates.process.register.title,
+      description: t.candidates.process.register.description,
+    },
+    {
+      step: '2',
+      title: t.candidates.process.match.title,
+      description: t.candidates.process.match.description,
+    },
+    {
+      step: '3',
+      title: t.candidates.process.support.title,
+      description: t.candidates.process.support.description,
+    },
+    {
+      step: '4',
+      title: t.candidates.process.success.title,
+      description: t.candidates.process.success.description,
+    },
+  ]
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -63,11 +65,10 @@ export default function Candidates() {
             className="text-center"
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Your Career Journey Starts Here
+              {t.candidates.hero.title}
             </h1>
             <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
-              We're here to help you find the perfect opportunity that matches your skills, 
-              values, and career aspirations.
+              {t.candidates.hero.subtitle}
             </p>
             <Link href="/jobs">
               <motion.button
@@ -76,7 +77,7 @@ export default function Candidates() {
                 transition={{ duration: 0.15 }}
                 className="px-8 py-3 bg-white text-primary-600 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-150 border-2 border-white/50 hover:bg-gray-50"
               >
-                Browse Available Jobs
+                {t.candidates.hero.browseJobs}
               </motion.button>
             </Link>
           </motion.div>
@@ -93,9 +94,9 @@ export default function Candidates() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">How We Help You</h2>
-            <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-              Comprehensive support throughout your job search journey
+            <h2 className="text-4xl font-bold text-white mb-4">{t.candidates.benefits.title}</h2>
+            <p className="text-xl text-white/90 max-w-2xl mx-auto">
+              {t.candidates.benefits.subtitle}
             </p>
           </motion.div>
 
@@ -129,9 +130,9 @@ export default function Candidates() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Process</h2>
-            <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-              Simple steps to your next career opportunity
+            <h2 className="text-4xl font-bold text-white mb-4">{t.candidates.process.title}</h2>
+            <p className="text-xl text-white/90 max-w-2xl mx-auto">
+              {t.candidates.process.subtitle}
             </p>
           </motion.div>
 
@@ -168,9 +169,9 @@ export default function Candidates() {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto text-center glass-strong rounded-3xl p-12 shadow-2xl"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ready to Take the Next Step?</h2>
-          <p className="text-xl text-gray-700 mb-8">
-            Join thousands of successful candidates who found their dream jobs through us.
+          <h2 className="text-4xl font-bold text-white mb-4">{t.candidates.cta.title}</h2>
+          <p className="text-xl text-white/90 mb-8">
+            {t.candidates.cta.subtitle}
           </p>
           <Link href="/jobs">
             <motion.button
@@ -178,7 +179,7 @@ export default function Candidates() {
               whileTap={{ scale: 0.95 }}
               className="px-8 py-3 bg-white text-primary-600 rounded-full font-semibold shadow-lg hover:bg-gray-50 border-2 border-white/50 transition-all duration-150"
             >
-              Get Started Today
+              {t.candidates.cta.getStarted}
             </motion.button>
           </Link>
         </motion.div>
@@ -188,8 +189,8 @@ export default function Candidates() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 glass-card">
         <div className="max-w-4xl mx-auto">
           <ContactForm
-            title="Get in Touch"
-            subtitle="Have questions about our services? Want to register as a candidate? Contact us today!"
+            title={t.candidates.contact.title}
+            subtitle={t.candidates.contact.subtitle}
             defaultSubject="Candidate Inquiry"
           />
         </div>

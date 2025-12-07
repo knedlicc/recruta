@@ -1,29 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-
-const values = [
-  {
-    title: 'Integrity',
-    description: 'We operate with honesty and transparency in everything we do',
-    icon: '🤝',
-  },
-  {
-    title: 'Excellence',
-    description: 'We strive for the highest standards in our service delivery',
-    icon: '⭐',
-  },
-  {
-    title: 'Partnership',
-    description: 'We build long-term relationships based on trust and mutual success',
-    icon: '🤝',
-  },
-  {
-    title: 'Innovation',
-    description: 'We continuously improve our processes to deliver better results',
-    icon: '💡',
-  },
-]
+import { useLanguage } from '@/contexts/LanguageContext'
 
 const team = [
   {
@@ -44,6 +22,30 @@ const team = [
 ]
 
 export default function About() {
+  const { t } = useLanguage()
+
+  const values = [
+    {
+      title: t.about.values.integrity.title,
+      description: t.about.values.integrity.description,
+      icon: '🤝',
+    },
+    {
+      title: t.about.values.excellence.title,
+      description: t.about.values.excellence.description,
+      icon: '⭐',
+    },
+    {
+      title: t.about.values.partnership.title,
+      description: t.about.values.partnership.description,
+      icon: '🤝',
+    },
+    {
+      title: t.about.values.innovation.title,
+      description: t.about.values.innovation.description,
+      icon: '💡',
+    },
+  ]
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -56,12 +58,10 @@ export default function About() {
             className="text-center"
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              About Recruta
+              {t.about.hero.title}
             </h1>
-            <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
-              We're a trusted recruitment agency dedicated to connecting exceptional talent 
-              with outstanding opportunities. Our mission is to make recruitment simple, 
-              personal, and effective for everyone.
+            <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
+              {t.about.hero.subtitle}
             </p>
           </motion.div>
         </div>
@@ -110,9 +110,9 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-white mb-4">Our Values</h2>
-            <p className="text-xl text-white max-w-2xl mx-auto">
-              The principles that guide everything we do
+            <h2 className="text-4xl font-bold text-white mb-4">{t.about.values.title}</h2>
+            <p className="text-xl text-white/90 max-w-2xl mx-auto">
+              {t.about.values.subtitle}
             </p>
           </motion.div>
 
@@ -128,8 +128,8 @@ export default function About() {
                 className="glass-card rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-150 text-center hover:bg-white/90"
               >
                 <div className="text-5xl mb-4">{value.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{value.title}</h3>
-                <p className="text-gray-700">{value.description}</p>
+                <h3 className="text-xl font-bold text-white mb-3">{value.title}</h3>
+                <p className="text-white/90">{value.description}</p>
               </motion.div>
             ))}
           </div>
@@ -146,9 +146,9 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
-            <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-              Experienced professionals dedicated to your success
+            <h2 className="text-4xl font-bold text-white mb-4">{t.about.team.title}</h2>
+            <p className="text-xl text-white/90 max-w-2xl mx-auto">
+              {t.about.team.subtitle}
             </p>
           </motion.div>
 
@@ -180,9 +180,9 @@ export default function About() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { number: '5000+', label: 'Successful Placements' },
-              { number: '200+', label: 'Partner Companies' },
-              { number: '98%', label: 'Client Satisfaction' },
+              { number: '5000+', label: t.about.stats.placements },
+              { number: '200+', label: t.about.stats.companies },
+              { number: '98%', label: t.about.stats.satisfaction },
             ].map((stat, index) => (
               <motion.div
                 key={index}

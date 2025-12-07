@@ -2,29 +2,7 @@
 
 import { motion } from 'framer-motion'
 import ContactForm from '@/components/ContactForm'
-
-const services = [
-  {
-    title: 'Talent Sourcing',
-    description: 'We find the best candidates for your open positions through our extensive network',
-    icon: '🔍',
-  },
-  {
-    title: 'Screening & Vetting',
-    description: 'Thorough background checks and skill assessments to ensure quality hires',
-    icon: '✅',
-  },
-  {
-    title: 'Time Savings',
-    description: 'Save valuable time by letting us handle the entire recruitment process',
-    icon: '⏱️',
-  },
-  {
-    title: 'Industry Expertise',
-    description: 'Deep understanding of various industries and their specific hiring needs',
-    icon: '💡',
-  },
-]
+import { useLanguage } from '@/contexts/LanguageContext'
 
 const industries = [
   'Technology',
@@ -51,6 +29,30 @@ const testimonials = [
 ]
 
 export default function Clients() {
+  const { t } = useLanguage()
+
+  const services = [
+    {
+      title: t.clients.services.talentSourcing.title,
+      description: t.clients.services.talentSourcing.description,
+      icon: '🔍',
+    },
+    {
+      title: t.clients.services.screening.title,
+      description: t.clients.services.screening.description,
+      icon: '✅',
+    },
+    {
+      title: t.clients.services.timeSavings.title,
+      description: t.clients.services.timeSavings.description,
+      icon: '⏱️',
+    },
+    {
+      title: t.clients.services.expertise.title,
+      description: t.clients.services.expertise.description,
+      icon: '💡',
+    },
+  ]
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -63,18 +65,17 @@ export default function Clients() {
             className="text-center"
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Find the Right Talent for Your Team
+              {t.clients.hero.title}
             </h1>
             <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
-              We help companies of all sizes find exceptional talent that drives business success. 
-              Let us handle your recruitment needs so you can focus on what matters most.
+              {t.clients.hero.subtitle}
             </p>
             <motion.button
               whileHover={{ scale: 1.05, transition: { duration: 0.15 } }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-3 bg-white text-primary-600 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-150 border-2 border-white/50 hover:bg-gray-50"
             >
-              Get Started
+              {t.clients.hero.getStarted}
             </motion.button>
           </motion.div>
         </div>
@@ -90,9 +91,9 @@ export default function Clients() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-            <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-              Comprehensive recruitment solutions tailored to your needs
+            <h2 className="text-4xl font-bold text-white mb-4">{t.clients.services.title}</h2>
+            <p className="text-xl text-white/90 max-w-2xl mx-auto">
+              {t.clients.services.subtitle}
             </p>
           </motion.div>
 
@@ -126,9 +127,9 @@ export default function Clients() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Industries We Serve</h2>
-            <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-              We have experience recruiting across diverse industries
+            <h2 className="text-4xl font-bold text-white mb-4">{t.clients.industries.title}</h2>
+            <p className="text-xl text-white/90 max-w-2xl mx-auto">
+              {t.clients.industries.subtitle}
             </p>
           </motion.div>
 
@@ -160,7 +161,7 @@ export default function Clients() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
+            <h2 className="text-4xl font-bold text-white mb-4">{t.clients.testimonials.title}</h2>
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -193,16 +194,16 @@ export default function Clients() {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto text-center glass-strong rounded-3xl p-12 shadow-2xl"
         >
-          <h2 className="text-4xl font-bold text-white mb-4">Ready to Find Your Next Hire?</h2>
-          <p className="text-xl text-white mb-8">
-            Let's discuss how we can help you build your dream team.
+          <h2 className="text-4xl font-bold text-white mb-4">{t.clients.cta.title}</h2>
+          <p className="text-xl text-white/90 mb-8">
+            {t.clients.cta.subtitle}
           </p>
           <motion.button
             whileHover={{ scale: 1.05, transition: { duration: 0.15 } }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-3 bg-white text-primary-600 rounded-full font-semibold shadow-lg hover:bg-gray-50 border-2 border-white/50 transition-all duration-150"
           >
-            Contact Us Today
+            {t.clients.cta.contactUs}
           </motion.button>
         </motion.div>
       </section>
@@ -211,8 +212,8 @@ export default function Clients() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 glass-card">
         <div className="max-w-4xl mx-auto">
           <ContactForm
-            title="Let's Discuss Your Hiring Needs"
-            subtitle="Tell us about your company and what kind of talent you're looking for. We'll get back to you with a customized solution."
+            title={t.clients.contact.title}
+            subtitle={t.clients.contact.subtitle}
             defaultSubject="Client Inquiry"
           />
         </div>

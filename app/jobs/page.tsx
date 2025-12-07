@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import JobApplicationModal from '@/components/JobApplicationModal'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 const jobs = [
   {
@@ -68,6 +69,7 @@ const jobs = [
 ]
 
 export default function Jobs() {
+  const { t } = useLanguage()
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [selectedJobForApplication, setSelectedJobForApplication] = useState<{ title: string; company: string } | null>(null)
 
@@ -85,9 +87,9 @@ export default function Jobs() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h1 className="text-5xl font-bold text-white mb-4">Available Positions</h1>
+          <h1 className="text-5xl font-bold text-white mb-4">{t.jobs.title}</h1>
           <p className="text-xl text-white max-w-2xl mx-auto">
-            Discover exciting career opportunities across various industries
+            {t.jobs.subtitle}
           </p>
         </motion.div>
 
@@ -141,7 +143,7 @@ export default function Jobs() {
                 onClick={() => handleApplyClick(job)}
                 className="w-full py-2 bg-gradient-to-r from-primary-500 via-green-500 to-accent-500 text-white rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-150"
               >
-                Apply Now
+                {t.buttons.applyNow}
               </motion.button>
             </motion.div>
           ))}

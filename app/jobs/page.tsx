@@ -85,8 +85,8 @@ export default function Jobs() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h1 className="text-5xl font-bold text-gray-900 mb-4">Available Positions</h1>
-          <p className="text-xl text-gray-700 max-w-2xl mx-auto">
+          <h1 className="text-5xl font-bold text-white mb-4">Available Positions</h1>
+          <p className="text-xl text-white max-w-2xl mx-auto">
             Discover exciting career opportunities across various industries
           </p>
         </motion.div>

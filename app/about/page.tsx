@@ -55,10 +55,10 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
               About Recruta
             </h1>
-            <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
               We're a trusted recruitment agency dedicated to connecting exceptional talent 
               with outstanding opportunities. Our mission is to make recruitment simple, 
               personal, and effective for everyone.
@@ -110,8 +110,8 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Values</h2>
-            <p className="text-xl text-gray-700 max-w-2xl mx-auto">
+            <h2 className="text-4xl font-bold text-white mb-4">Our Values</h2>
+            <p className="text-xl text-white max-w-2xl mx-auto">
               The principles that guide everything we do
             </p>
           </motion.div>

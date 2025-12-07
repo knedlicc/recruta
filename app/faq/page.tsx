@@ -23,8 +23,8 @@ export default function FAQ() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h1 className="text-5xl font-bold text-gray-900 mb-4">{t.faq.title}</h1>
-          <p className="text-xl text-gray-700 max-w-2xl mx-auto">
+          <h1 className="text-5xl font-bold text-white mb-4">{t.faq.title}</h1>
+          <p className="text-xl text-white max-w-2xl mx-auto">
             {t.faq.subtitle}
           </p>
         </motion.div>

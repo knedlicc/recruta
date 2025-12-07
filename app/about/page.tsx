@@ -124,8 +124,7 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                whileHover={{ y: -10 }}
-                transition={{ duration: 0.15 }}
+                whileHover={{ y: -10, transition: { duration: 0.15 } }}
                 className="glass-card rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-150 text-center hover:bg-white/90"
               >
                 <div className="text-5xl mb-4">{value.icon}</div>

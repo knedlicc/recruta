@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { languages, Language } from '@/lib/i18n'
+import FlagIcon from '@/components/FlagIcon'
 
 export default function LanguageSwitcher() {
   const { language, setLanguage } = useLanguage()
@@ -18,7 +19,9 @@ export default function LanguageSwitcher() {
         className="flex items-center gap-2 px-3 py-2 rounded-lg glass hover:bg-white/20 transition-all text-white"
         aria-label="Change language"
       >
-        <span className="text-lg">{currentLanguage.flag}</span>
+        <span className="w-5 h-4 flex-shrink-0">
+          <FlagIcon country={currentLanguage.flag} className="w-full h-full" />
+        </span>
         <span className="text-sm font-medium hidden sm:inline">{currentLanguage.code.toUpperCase()}</span>
         <svg
           className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`}
@@ -56,7 +59,9 @@ export default function LanguageSwitcher() {
                       : 'text-white/90 hover:bg-white/10 hover:text-white'
                   }`}
                 >
-                  <span className="text-xl">{lang.flag}</span>
+                  <span className="w-6 h-5 flex-shrink-0">
+                    <FlagIcon country={lang.flag} className="w-full h-full" />
+                  </span>
                   <span className="text-sm font-medium">{lang.name}</span>
                   {language === lang.code && (
                     <svg className="w-4 h-4 ml-auto" fill="currentColor" viewBox="0 0 20 20">
